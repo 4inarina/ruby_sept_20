@@ -8,13 +8,15 @@ puts "Enter 3rd side"
 c = gets.chomp.to_f
 
 case 
- 	when a < b && a < c
+ 	when a > b && a > c
  	g = a
-	when b < a && b < c
+	when b > a && b > c
 	g = b
-	when c < b && c < a
+	when c > b && c > a
 	g = c
 end
+# g = max { |a, b, c| }
+# puts g
 
 if g ** 2 == c ** 2 + b ** 2 || g ** 2 == a ** 2 + b ** 2 || g ** 2 == b ** 2 + c ** 2
 	puts "Прямоугольный треугольник"

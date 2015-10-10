@@ -1,5 +1,14 @@
+# week = {1 => 'пн', 2 => 'вт'}
+
 puts "Enter any number"
 a = gets.chomp.to_i
+
+# day = week[day]
+# if day 
+# 	puts 'Сегодня - #{day}.'
+# else
+# 	puts "неверный день"
+# end
 
 case a
 	when 1
