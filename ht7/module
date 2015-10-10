@@ -1,0 +1,3 @@
+module Producer
+attr_accesor: :producer_brand
+
